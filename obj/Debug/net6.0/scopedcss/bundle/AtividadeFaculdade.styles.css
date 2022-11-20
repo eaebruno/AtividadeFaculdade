@@ -1,0 +1,128 @@
+/* _content/AtividadeFaculdade/Views/Shared/_Layout.cshtml.rz.scp.css */
+body[b-ocxjomlj26] {
+  width: 100%;
+  height: 100vh;
+}
+
+main[b-ocxjomlj26] {
+  width: 100%;
+  height: 100%;
+  padding: 1rem; /* espacamento interno */
+}
+
+section[b-ocxjomlj26] {
+  width: 100%;
+  margin: 0 auto;
+  padding: 1rem;
+  margin-bottom: 0.625rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+h1[b-ocxjomlj26] {
+  text-align: center;
+  font-size: 3.5rem;
+  margin-top: 3rem;
+  font-family: serif;
+}
+
+.instrucoes[b-ocxjomlj26] {
+  max-width: 480px;
+  margin: 0 auto;
+  border: 1px solid #eee;
+  border-radius: 3px;
+  padding: 0 0.625rem 0.625rem;
+  background: #fff;
+}
+
+.instrucoes p[b-ocxjomlj26] {
+  margin-top: 0.5rem;
+  font-size: 1rem;
+}
+
+#titulo[b-ocxjomlj26],
+#dica[b-ocxjomlj26] {
+  background: #111;
+  color: #ececec;
+  padding: 2px;
+  width: 75%;
+  margin: 0 auto;
+}
+
+#titulo[b-ocxjomlj26] {
+  margin-bottom: 0.625rem;
+}
+
+.centro[b-ocxjomlj26] {
+  margin-top: 0.625rem;
+  text-align: center;
+}
+
+label[b-ocxjomlj26] {
+  font-family: serif;
+  font-weight: 500;
+  font-size: 22px;
+}
+
+label:first-child[b-ocxjomlj26] {
+  font-size: 1.75rem;
+  margin-right: 0.5rem;
+}
+
+.input[b-ocxjomlj26] {
+  font-size: 1.5rem;
+  text-align: center;
+  padding: 5px;
+  margin-bottom: 0.625rem;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  outline: none;
+}
+.radio[b-ocxjomlj26] {
+  border: 1px solid #d50000;
+  margin-left: 0.75rem;
+}
+
+.botao[b-ocxjomlj26] {
+  margin-top: 0.625rem;
+  padding: 8px;
+}
+
+#btnConverter[b-ocxjomlj26],
+#btnLimpar[b-ocxjomlj26] {
+  font-size: 1.5rem;
+  border: 0;
+  border-radius: 5px;
+  color: #fff;
+  outline: none;
+}
+
+#btnLimpar[b-ocxjomlj26] {
+  cursor: pointer;
+  margin-left: 0.625rem;
+  background: #d50000;
+}
+
+#btnConverter[b-ocxjomlj26] {
+  cursor: not-allowed;
+}
+
+#btnConverter:hover[b-ocxjomlj26],
+#btnLimpar:hover[b-ocxjomlj26] {
+  box-shadow: 0px 0px 15px #ffc107;
+}
+
+/* Paragrafo com ID aviso */
+#aviso[b-ocxjomlj26] {
+  padding: 5px;
+  color: #191919;
+  font-family: serif;
+  font-weight: 500;
+}
+
+
+i[b-ocxjomlj26] {
+  color: green;
+}
